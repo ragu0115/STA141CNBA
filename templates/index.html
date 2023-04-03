@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict Net Rating</title>
+</head>
+<body>
+    <h1>Predict Net Rating</h1>
+    <form action="/" method="POST">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br><br>
+        
+        <label for="player_height">Player Height:</label>
+        <input type="text" id="player_height" name="player_height"><br><br>
+        
+        <label for="player_weight">Player Weight:</label>
+        <input type="text" id="player_weight" name="player_weight"><br><br>
+        
+        <label for="pts">Points:</label>
+        <input type="text" id="pts" name="pts"><br><br>
+        
+        <label for="reb">Rebounds:</label>
+        <input type="text" id="reb" name="reb"><br><br>
+        
+        <label for="ast">Assists:</label>
+        <input type="text" id="ast" name="ast"><br><br>
+        
+        <label for="oreb_pct">Offensive Rebound Percentage:</label>
+        <input type="text" id="oreb_pct" name="oreb_pct"><br><br>
+        
+        <label for="dreb_pct">Defensive Rebound Percentage:</label>
+        <input type="text" id="dreb_pct" name="dreb_pct"><br><br>
+        
+        <label for="usg_pct">Usage Percentage:</label>
+        <input type="text" id="usg_pct" name="usg_pct"><br><br>
+        
+        <label for="ts_pct">True Shooting Percentage:</label>
+        <input type="text" id="ts_pct" name="ts_pct"><br><br>
+        
+        <label for="ast_pct">Assist Percentage:</label>
+        <input type="text" id="ast_pct" name="ast_pct"><br><br>
+        
+        <input type="submit" value="Predict Net Rating">
+    </form>
+    <br>
+    <br>
+    {{ result }}
+
+</body>
+</html>
